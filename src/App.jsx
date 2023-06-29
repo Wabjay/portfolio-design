@@ -5,7 +5,6 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from './pages/Projects';
-import Works from './pages/Works';
 import Experience from './pages/Experience';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
