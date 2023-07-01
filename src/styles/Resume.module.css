@@ -1,0 +1,136 @@
+
+.subtitle{
+font-size: 1.2rem;
+line-height: 1rem;
+letter-spacing: 1px;
+}
+.link{
+    font-size: 1rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    width: 100%;
+}
+.brief{
+    margin-top: 3rem;
+    max-width: 550px;
+}
+
+.sidebar{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+margin: 4rem 0 2rem;
+width: 100%;
+max-width: 350px;
+}
+
+
+.skills{
+    width: fit-content;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.header, .text, .core{
+    font-size: 14px;
+    line-height: 1.4rem;
+    width: 100%;
+    max-width: 550px;
+}
+
+.header{
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+    font-weight: 700;
+}
+.company_header{
+    font-size: 1rem;
+}
+.core {
+    width: fit-content;
+    margin-bottom: 0.7rem;
+    font-weight: 600;
+    --grad-1: rgb(165, 76, 189);
+    --grad-2: rgb(71, 129, 84);
+    border-width: 2px;
+    border-style: solid;
+    border-image:
+        linear-gradient(to left,
+            var(--grad-2)0%,
+            var(--grad-1)100%) 0 0 20%;
+}
+
+.text{
+    font-weight: 300;
+}
+.date, .list{
+    font-size: 12px;
+    line-height: 1.2rem;
+}
+.top_role{
+margin-top: 2.5rem;
+}
+
+.techs{
+    display: flex;
+   flex-wrap: wrap;
+gap: 0.5rem;
+margin-top: 1rem;
+width: fit-content;
+}
+
+.list{
+   padding: 0.25rem 0.75rem;
+   border-radius: 2rem;
+   background-color: rgba(45,212,191,.1);
+   width: fit-content;
+}
+
+@media (min-width: 576px) {
+    .techs{
+    max-width: 500px;
+    margin-top: 1rem;
+    }
+       
+
+}
+
+@media (min-width: 768px) {
+    
+    .experience{
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        grid-template-columns: max-content auto;
+        justify-content: left;
+        gap: 3rem;
+        margin-top: 4rem;
+    }
+
+    .subtitle{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        letter-spacing: 2px;
+        }
+        .link{
+            font-size: 1.5rem;
+            line-height: 2rem;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            /* display: block; */
+        }
+        
+.sidebar{
+    /* display: block; */
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 0;
+    width: fit-content;
+}
+     
+}
