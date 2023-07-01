@@ -45,7 +45,7 @@ export default {
           '50%': { transform: 'rotate(3deg)' },
         },
         cursor: {
-          'hand': "url('/src/assets/pointing-up.cur'), pointer",
+          'hand': "url('/public/assets/pointing-up.cur'), pointer",
         },
     },
     },
