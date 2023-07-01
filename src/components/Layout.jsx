@@ -1,8 +1,11 @@
 import React from 'react'
 import style from '../styles/Layout.module.css'
 import Links from './Links'
+import pdfFile from '../../src/assets/resume.pdf'
+
 function Layout(props) {
  
+
   const path = window.location.pathname
 
   return (
@@ -24,7 +27,7 @@ function Layout(props) {
           {path != "/contact" && <li><a href="/contact" className={`text-text text-xl`}>Contact</a></li>}
        </ul>
        {path == "/resume" &&  <div className={`mt-6`}>
-       <Links download={true} text="Download Résumé" link="/resume.pdf"/>
+       <Links download={true} text="Download Résumé" link={pdfFile}/>
           </div>}
 
        <div className={style.top_line}></div>

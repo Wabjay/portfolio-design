@@ -27,7 +27,7 @@ export default {
       backgroundImage: {
         'old_wine': 'linear-gradient(to right, #33001b  0%, #ff0084  100%);',
         'premium_dark': 'linear-gradient(to right, #434343 0%, black 100%);',
-        'noise': "url('/public/images/noise-transparent.png')"
+        'noise': "url('/src/assets/noise-transparent.png')"
       },
       screens: {
         'xxl': {'min': '1441px'},
@@ -45,7 +45,7 @@ export default {
           '50%': { transform: 'rotate(3deg)' },
         },
         cursor: {
-          'hand': "url('/public/assets/pointing-up.cur'), pointer",
+          'hand': "url('/src/assets/pointing-up.cur'), pointer",
         },
     },
     },
