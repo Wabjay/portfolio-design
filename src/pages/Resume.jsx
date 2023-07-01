@@ -44,7 +44,7 @@ function Resume() {
             className="mb-16 md:mb-24"
             aria-label="About me"
           >
-            <div className="sticky top-0 z-20 mb-4 w-screen  py-5 lg:relative lg:top-auto lg:w-full lg:py-0">
+            <div className="sticky top-0 z-20 mb-4  py-5 lg:relative lg:top-auto lg:w-full lg:py-0">
               <h2 className="text-sm font-bold uppercase tracking-widest ">
                 About
               </h2>

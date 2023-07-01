@@ -21,7 +21,7 @@ export const skills = [
 export const projectList = [
   {
     path: "ayrem",
-    img: ["../assets/ayrem/1.jpg","../assets/ayrem/2.jpg","../assets/ayrem/3.jpg","../assets/ayrem/4.jpg","../assets/ayrem/5.jpg",],
+    img: ["../../src/assets/ayrem/1.jpg","../../src/assets/ayrem/2.jpg","../../src/assets/ayrem/3.jpg","../../src/assets/ayrem/4.jpg","../../src/assets/ayrem/5.jpg",],
     client: "Ayrem LTD",
     industry: "Cryptocurrency, Fintech",
     title: "Ayrem App",
@@ -31,7 +31,7 @@ export const projectList = [
   },
   {
     path: "ownerfi",
-    img: ["../assets/ownerfi/1.jpg","../assets/ownerfi/2.jpg","../assets/ownerfi/3.jpg","../assets/ownerfi/4.jpg","../assets/ownerfi/5.jpg",],
+    img: ["../../src/assets/ownerfi/1.jpg","../../src/assets/ownerfi/2.jpg","../../src/assets/ownerfi/3.jpg","../../src/assets/ownerfi/4.jpg","../../src/assets/ownerfi/5.jpg",],
     client: "Ownerfi LTD",
     industry: "Proptech, Real Estate",
     title: "Ownerfi App",
@@ -41,7 +41,7 @@ export const projectList = [
   },
   {
     path: "ethco",
-    img: ["../assets/ethco/1.jpg","../assets/ethco/2.jpg","../assets/ethco/3.jpg","../assets/ethco/4.jpg","../assets/ethco/5.jpg",],
+    img: ["../../src/assets/ethco/1.jpg","../../src/../src/assets/ethco/2.jpg","../../src/../src/assets/ethco/3.jpg","../../src/assets/ethco/4.jpg","../../src/assets/ethco/5.jpg",],
     client: "Ethco Uk",
     industry: "Foodtech, E-commerce",
     title: "Ethco",
@@ -51,7 +51,7 @@ export const projectList = [
   },
   {
     path: "techtanks",
-    img: ["../assets/techtank/1.jpg","../assets/techtank/5.jpg","../assets/techtank/2.jpg","../assets/techtank/3.jpg","../assets/techtank/4.jpg","../assets/techtank/5.jpg",],
+    img: ["../../src/assets/techtank/1.jpg","../../src/assets/techtank/5.jpg","../../src/assets/techtank/2.jpg","../../src/assets/techtank/3.jpg","../../src/assets/techtank/4.jpg","../../src/assets/techtank/5.jpg",],
     client: "TechTanks LTD",
     industry: "Proptech, Real Estate",
     title: "TechTanks Landing page",
@@ -61,7 +61,7 @@ export const projectList = [
   },
   {
     path: "maxim",
-    img: ["../assets/maxim/2.jpg","../assets/maxim/1.jpg","../assets/maxim/3.jpg","../assets/maxim/4.jpg","../assets/maxim/5.jpg"],
+    img: ["../../src/assets/maxim/2.jpg","../../src/assets/maxim/1.jpg","../../src/assets/maxim/3.jpg","../../src/assets/maxim/4.jpg","../../src/assets/maxim/5.jpg"],
     client: "MONSTERLABS TECHNOLOGIES LTD",
     industry: "Proptech, Real Estate",
     title: "Maxim Landing page",
@@ -71,7 +71,7 @@ export const projectList = [
   },
   {
     path: "ecokpala",
-    img: ["../assets/ecokpala/1.jpg","../assets/ecokpala/2.jpg","../assets/ecokpala/3.jpg","../assets/ecokpala/4.jpg",],
+    img: ["../../src/assets/ecokpala/1.jpg","../../src/assets/ecokpala/2.jpg","../../src/assets/ecokpala/3.jpg","../../src/assets/ecokpala/4.jpg",],
     client: "Emmanuel Okpala",
     industry: "Consulting Agency",
     title: "Ecokpala Booking website",
