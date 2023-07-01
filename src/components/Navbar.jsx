@@ -24,6 +24,7 @@ function Navbar() {
             <a
               href="https://github.com/wabjay"
               className="text-text hover:text-teal-300 focus-visible:text-teal-300 nav"
+              target="_blank"
             >
               <GitHub />
             </a>
@@ -33,6 +34,7 @@ function Navbar() {
             <a
               href="https://www.linkedin.com/in/wabjay/"
               className="text-text hover:text-teal-300 focus-visible:text-teal-300 nav"
+              target="_blank"
             >
               <LinkedIn />
             </a>

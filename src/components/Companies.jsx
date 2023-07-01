@@ -45,7 +45,7 @@ function Companies() {
           <div className={styles.top_role} key={index}>
             <div className={`mb-2`}>
               <div>
-                <Links text={company.name} link={company.link} />
+                <Links text={company.name} link={company.link} target={true}/>
                 {/* <a
                   href={company.link}
                   className={`${styles.header} ${styles.company_header} mr-2 font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 text-base`}

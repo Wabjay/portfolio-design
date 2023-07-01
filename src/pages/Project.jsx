@@ -23,7 +23,7 @@ function Project() {
   };
 // Styles*************
 
-  const Heading = ({text, client, industry, tasks})=>{
+  const Heading = ({text, client, industry, tasks, link})=>{
     return(
       <div className="about_text relative mt-10">
       <p className={`mt-4 leading-normal`}>{text}</p>
@@ -40,7 +40,9 @@ function Project() {
             </div>
           </div>
         )}
+       
         <div className="mt-4">
+
           <p className="tet-2xl font-bold mb-2">Technologies:</p>
 
           <ul style={techs} className="md:flex pl-5">
@@ -74,6 +76,7 @@ function Project() {
                     tasks={project.tasks}
                     client={project.client}
                     industry={project.industry}
+                    link={project.link}
                   />
                 }
               >

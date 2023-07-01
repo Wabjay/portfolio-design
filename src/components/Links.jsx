@@ -1,12 +1,13 @@
 import { ArrowBack, ArrowForward, Download } from '@mui/icons-material';
 import React from 'react'
 
-function Links({link, text, arrow,back, download}) {
+function Links({link, text, arrow,back, download, target}) {
   return (
     <a
       className={`${(arrow || download) && 'nav'} inline-flex items-center font-medium leading-tight font-semibold text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"`}
       aria-label={text}
       href={link}
+    target={target && '_blank'}
     >
       <span>
         {/* <span className=" pb-px   ">
