@@ -9,7 +9,7 @@ function Layout(props) {
     <div className={`${style.content}  p-5 md:py-[5rem] bg-premium_dark`}>
     <div className={style.home_content}>
      <div className={`${style.about} relative`}>
-       <p className={`text-2xl capitalize font-bold tracking-tight sm:text-5xl`}>{props.title}</p>
+       <p className={`text-2xl capitalize font-bold tracking-tight sm:text-4xl`}>{props.title}</p>
       {props.header}
      </div>
    

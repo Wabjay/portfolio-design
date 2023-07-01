@@ -1,55 +1,40 @@
 import React from "react";
-// import styles from '../components/Companies/Resume.module.css';
-import styles from "../components/Companies/Resume2.module.css";
+import styles from "../styles/Resume.module.css";
 import Layout from "../components/Layout";
-// import Companies from '../components/Companies/Companies';
-import Companies from "../components/Companies/Companies2";
-import { skills, technologies } from "../data/Collections";
+import Companies from "../components/Companies";
 import Social from "../components/Social";
 import Projects from "../components/Projects";
-// import Header from "../components/Header";
+import Techologies from "../components/Techologies";
 
-function heading() {
-  return (
-  <>
-      <p
-        className={`${styles.subtitle} mb-1 mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl`}
-      >
-        Frontend Developer
-      </p>
-      <p className={` mt-4 max-w-xs leading-normal`}>
-        I’ve worked on a handful of web projects over the years, some of which
-        were for the following organizations:
-      </p>
-      <Social />
-      </>
-      )
-}
+
 
 
 function Resume() {
-     
+
+  const Heading =()=> {
+    return (
+    <>
+        <p
+          className={`${styles.subtitle} mb-1 mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl`}
+        >
+          Frontend Developer
+        </p>
+        <p className={` mt-4 max-w-xs leading-normal`}>
+          I’ve worked on a handful of web projects over the years, some of which
+          were for the following organizations:
+        </p>
+        <Social />
+        </>
+        )
+  } 
   
   return (
     <Layout title="Abdulwahab Jimoh" 
     // Header part of each pages
-    header={<>
-      <p
-        className={`${styles.subtitle} mb-1 mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl`}
-      >
-        Frontend Developer
-      </p>
-      <p className={` mt-4 max-w-xs leading-normal`}>
-        I’ve worked on a handful of web projects over the years, some of which
-        were for the following organizations:
-      </p>
-      <Social />
-      </>}>
+    header={<Heading />}>
 
 
       <div className="resume">
-     
-      
         {/* <a href='#' className={`${styles.link} mr-6`}>wabjay.dev</a>
         <a href='mailto:omoniyi.success@gmail.com' className={`${styles.link}`}>hello@wabjay.dev</a>
         </div><p className={`${styles.link}`}>Lagos, Nigeria</p> */}
@@ -70,8 +55,16 @@ function Resume() {
               which were for the following organizations:
             </p>
           </section>
+          <div className={` mb-16 md:mb-24`}>
+           <div className={`${styles.experience}`}>
+            <Techologies />
           <Companies />
-          <Projects showlink={true} />
+          <div className='mt-[2.5rem] sm:mt-0 md:col-start-2'>
+             <Projects showlink={true} />
+          </div>
+
+          </div>
+          </div>
         </div>
       </div>
 
