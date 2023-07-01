@@ -30,7 +30,7 @@ function App() {
     mixBlendMode: 'exclusion'
   }}/>
     <div className='container w-fit p-3'>
-      <div className='w-full rounded'>
+      <div className='rounded'>
       <BrowserRouter>
         <Navbar />
         <Routes>

@@ -21,7 +21,7 @@ export const skills = [
 export const projectList = [
   {
     path: "ayrem",
-    img: ["../assets/ayrem/1.jpg","../assets/ayrem/2.png","../assets/ayrem/3.jpg","../assets/ayrem/4.jpg","../assets/ayrem/5.jpg",],
+    img: ["../assets/ayrem/1.jpg","../assets/ayrem/2.jpg","../assets/ayrem/3.jpg","../assets/ayrem/4.jpg","../assets/ayrem/5.jpg",],
     client: "Ayrem LTD",
     industry: "Cryptocurrency, Fintech",
     title: "Ayrem App",
@@ -31,7 +31,7 @@ export const projectList = [
   },
   {
     path: "ownerfi",
-    img: ["../assets/ownerfi/1.png","../assets/ownerfi/2.png","../assets/ownerfi/3.png","../assets/ownerfi/4.png","../assets/ownerfi/5.png",],
+    img: ["../assets/ownerfi/1.jpg","../assets/ownerfi/2.jpg","../assets/ownerfi/3.jpg","../assets/ownerfi/4.jpg","../assets/ownerfi/5.jpg",],
     client: "Ownerfi LTD",
     industry: "Proptech, Real Estate",
     title: "Ownerfi App",
@@ -41,7 +41,7 @@ export const projectList = [
   },
   {
     path: "ethco",
-    img: ["../assets/ethco/1.png","../assets/ethco/2.png","../assets/ethco/3.png","../assets/ethco/4.png","../assets/ethco/5.png",],
+    img: ["../assets/ethco/1.jpg","../assets/ethco/2.jpg","../assets/ethco/3.jpg","../assets/ethco/4.jpg","../assets/ethco/5.jpg",],
     client: "Ethco Uk",
     industry: "Foodtech, E-commerce",
     title: "Ethco",
@@ -51,7 +51,7 @@ export const projectList = [
   },
   {
     path: "techtanks",
-    img: ["../assets/techtank/1.png","../assets/techtank/2.png","../assets/techtank/3.png","../assets/techtank/4.png","../assets/techtank/5.png",],
+    img: ["../assets/techtank/1.jpg","../assets/techtank/5.jpg","../assets/techtank/2.jpg","../assets/techtank/3.jpg","../assets/techtank/4.jpg","../assets/techtank/5.jpg",],
     client: "TechTanks LTD",
     industry: "Proptech, Real Estate",
     title: "TechTanks Landing page",
