@@ -29,6 +29,7 @@ function Project() {
       <p className={`mt-4 leading-normal`}>{text}</p>
       <div>
         {client && (
+          <>
           <div className="mt-4 flex  flex-col gap-4 md:flex-row md:gap-0">
             <div className="">
               <p className="tet-2xl font-bold">Client:</p>
@@ -39,6 +40,10 @@ function Project() {
               <p>{industry}</p>
             </div>
           </div>
+          <div className="mt-4">
+              <p className="tet-2xl font-bold">Link:</p>
+              <a href={link}>{link}</a>
+            </div></>
         )}
        
         <div className="mt-4">
@@ -84,12 +89,13 @@ function Project() {
                   {project.img.map(
                     (img, index) =>
                       index > 0 && (
+                        
                         <img
                           key={index}
                           src={img}
                           alt=""
                           className="w-[90%] mx-auto mb-8 h-fit"
-                        />
+                        >{console.log(img)}</img>
                       )
                   )}
                   <div className="mt-4 text-center mx-auto flex gap-8 justify-between w-[200px]">

@@ -34,7 +34,9 @@
 }
 .about_text p{
   padding-left: 20px;
-  /* max-width: 617px; */
+}
+.about_text a{
+  margin-left: 20px;
 }
 
 .page-links ul{
