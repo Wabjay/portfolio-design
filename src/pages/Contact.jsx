@@ -15,15 +15,17 @@ const [show, setShow] = useState(false)
 const submit = ()=>{
   const data = {name, email, message}
   setLoading(true);
-console.log(import.meta.env.VITE_API_KEY)
+  const tokens = import.meta.env.VITE_API_KEY.replaceAll('"', '')
+
+console.log(tokens)
   try {
     setLoading(true);
 
     const headers_ = {
-        'Authorization': `Bearer ${import.meta.env.VITE_API_KEY}`,
+        'Authorization': `Bearer ${tokens}`,
         'Content-Type': 'application/json'
     };
-    axios.post('https://api.airtable.com/v0/appukcVCTvv9xgSow/Contact',
+    axios.post('https://api.airtable.com/v0/appukcVCTvv9xgSow/contact',
         {
             fields:{
                 name: name,
@@ -39,7 +41,7 @@ console.log(import.meta.env.VITE_API_KEY)
             setMessage('') 
             setLoading(false);
             setSuccessMessage(<span className="text-grad2">Email sent successfully</span>)
-            console.log(resp)
+            console.log(data)
             setShow(true)
             setTimeout(() => {setShow(false)}, 3000);
 
@@ -47,6 +49,7 @@ console.log(import.meta.env.VITE_API_KEY)
         .catch((error) => {
             console.log(error);
             setLoading(false);
+            console.log(data)
             setSuccessMessage(<span className="text-grad1">Email not sent</span>)
        setShow(true)
         setTimeout(() => {setShow(false)}, 3000);
