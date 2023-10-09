@@ -24,6 +24,8 @@ dist-ssr
 *.sw?
 
 
+.env
+
 # Pages
 Resume copy.jsx
 Works.jsx

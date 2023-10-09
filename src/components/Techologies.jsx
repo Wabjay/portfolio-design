@@ -7,12 +7,12 @@ import Links from "./Links";
 function Techologies() {
   return (
     
-        <div className={styles.sidebar}>
+        <div className={`${styles.sidebar}`}>
           <div className={styles.section}>
             <p
               className={`${styles.core} text-sm font-bold uppercase tracking-widest`}
             >
-              Technologies:
+              Technologies
             </p>
             <ul className={styles.skills}>
               {technologies.map((tech, index) => (
@@ -26,7 +26,7 @@ function Techologies() {
             <p
               className={`${styles.core} text-sm font-bold uppercase tracking-widest`}
             >
-              Others:
+              Others
             </p>
             <ul className={styles.skills}>
               {skills.map((skill, index) => (

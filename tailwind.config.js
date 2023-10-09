@@ -23,12 +23,14 @@ export default {
         'bermuda': '#78dcca',
         'text': ' #d1d1d1;',
         'hovers': '#e2e8fO',
+        "grad1": "rgb(165, 76, 189)",
+        "grad2": "rgb(71, 129, 84)",
       },
       backgroundImage: {
         'old_wine': 'linear-gradient(to right, #33001b  0%, #ff0084  100%);',
         'premium_dark': 'linear-gradient(to right, #434343 0%, black 100%);',
-        'noise': "url('/src/assets/noise-transparent.png')"
-      },
+        'noise': "url('/src/assets/noise-transparent.png')",
+        'button': "0_4px_9px_-4px_#3b71ca"      },
       screens: {
         'xxl': {'min': '1441px'},
         // 'lm': '900px',

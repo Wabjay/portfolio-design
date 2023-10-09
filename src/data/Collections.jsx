@@ -1,22 +1,3 @@
-export const technologies = [
-  "JavaScript",
-  "React",
-  "CSS-in-JS",
-  "TypeScript",
-  "NodeJS",
-  "Sass",
-  "Nextjs",
-  "TailwindCss",
-];
-
-export const skills = [
-  "Design Systems",
-  "Performance Optimization",
-  "PWAs",
-  "Progressive Enhancement",
-  "Responsive Web Design",
-  "SE Optimization",
-];
 import Ayrem1 from "./ayrem/1.jpg"
 import Ayrem2 from "./ayrem/2.jpg"
 import Ayrem3 from "./ayrem/3.jpg"
@@ -47,10 +28,49 @@ import Ecokpala2 from "./ecokpala/2.jpg"
 import Ecokpala3 from "./ecokpala/3.jpg"
 import Ecokpala4 from "./ecokpala/4.jpg"
 
+import ComfyTag1 from "./comfytag/2.jpg"
+import ComfyTag2 from "./comfytag/1.jpg"
+import ComfyTag3 from "./comfytag/01.jpg"
+import ComfyTag4 from "./comfytag/3.jpg"
+
+
+
+
+export const technologies = [
+  "JavaScript",
+  "React",
+  "CSS-in-JS",
+  "TypeScript",
+  "NodeJS",
+  "Sass",
+  "Nextjs",
+  "TailwindCss",
+  "VITE"
+];
+
+export const skills = [
+  "Design Systems",
+  "Performance Optimization",
+  "PWAs",
+  "Progressive Enhancement",
+  "Responsive Web Design",
+  "SE Optimization",
+];
+
 export const projectList = [
   {
+    path: "comfytag",
+    img: [ComfyTag1,ComfyTag2,ComfyTag3,ComfyTag4],
+    client: "Project",
+    industry: "Events",
+    title: "Comfytag",
+    link: "https://comfytag.vercel.app",
+    text: `We are the leading online ticket platform for events and activities. We provide a convenient and secure way for you to purchase tickets to your favorite music festivals, sporting events, theatrical performances, and more.`,
+    tasks: ["VITE", "React", "Material UI"],
+  },
+  {
     path: "ayrem",
-    img: [Ayrem1,Ayrem2, Ayrem3,Ayrem4,Ayrem5],
+    img: [Ayrem1,Ayrem2,Ayrem3,Ayrem4,Ayrem5],
     client: "Ayrem LTD",
     industry: "Cryptocurrency, Fintech",
     title: "Ayrem App",

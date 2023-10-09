@@ -8,7 +8,7 @@ function Projects({showlink}) {
 
   // Secon Model Design from Brittany
   return (
-    <div className={` mb-16 md:mb-24`}>
+    <div className={` my-16 md:mb-24`}>
     <div className={``}>
       <div className={styles.details}>
         <h2 className="text-sm font-bold uppercase tracking-widest">Projects</h2>

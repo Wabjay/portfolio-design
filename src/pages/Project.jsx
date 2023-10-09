@@ -42,7 +42,7 @@ function Project() {
           </div>
           <div className="mt-4">
               <p className="tet-2xl font-bold">Link:</p>
-              <a href={link}>{link}</a>
+              <a href={link} target="_blank" rel="noreferrer">{link}</a>
             </div></>
         )}
        
