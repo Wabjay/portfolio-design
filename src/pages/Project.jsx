@@ -24,47 +24,47 @@ function Project() {
 // Styles*************
 
   const Heading = ({text, client, industry, tasks, link})=>{
-    return(
+    return (
       <div className="about_text relative mt-10">
-      <p className={`mt-4 leading-normal`}>{text}</p>
-      <div>
-        {client && (
-          <>
-          <div className="mt-4 flex  flex-col gap-4 md:flex-row md:gap-0">
-            <div className="">
-              <p className="tet-2xl font-bold">Client:</p>
-              <p>{client}</p>
-            </div>
-            <div className="">
-              <p className="tet-2xl font-bold">Industry:</p>
-              <p>{industry}</p>
-            </div>
-          </div>
+        <p className={`mt-4 leading-normal`}>{text}</p>
+        <div>
+          {client && (
+            <>
+              <div className="mt-4 flex  flex-col gap-4 md:flex-row md:gap-0">
+                <div className="">
+                  <p className="tet-2xl font-bold">Client:</p>
+                  <p>{client}</p>
+                </div>
+                <div className="">
+                  <p className="tet-2xl font-bold">Industry:</p>
+                  <p>{industry}</p>
+                </div>
+              </div>
+              <div className="mt-4">
+                <p className="tet-2xl font-bold">Link:</p>
+                {link && link.map((link, index) => (
+                  <a key={index} href={link} target="_blank" rel="noreferrer" className="w-fit mt-2 block">
+                    {link}
+                  </a>
+                ))}
+              </div>
+            </>
+          )}
+
           <div className="mt-4">
-              <p className="tet-2xl font-bold">Link:</p>
-              <a href={link} target="_blank" rel="noreferrer">{link}</a>
-            </div></>
-        )}
-       
-        <div className="mt-4">
+            <p className="tet-2xl font-bold mb-2">Technologies:</p>
 
-          <p className="tet-2xl font-bold mb-2">Technologies:</p>
-
-          <ul style={techs} className="md:flex pl-5">
-            {tasks.map((task, index) => (
-              <li
-                key={index}
-                style={list}
-                className={` text-teal-300`}
-              >
-                {task}
-              </li>
-            ))}
-          </ul>
+            <ul style={techs} className="md:flex pl-5">
+              {tasks.map((task, index) => (
+                <li key={index} style={list} className={` text-teal-300`}>
+                  {task}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-      )
+    );
   }
 
   return (
@@ -93,12 +93,12 @@ function Project() {
                         <img
                           key={index}
                           src={img}
-                          alt=""
-                          className="w-[90%] mx-auto mb-8 h-fit"
+                          alt={`${project.title}`}
+                          className="w-[90%] mx-auto mb-8 h-[216px] md:h-fit"
                         >{console.log(img)}</img>
                       )
                   )}
-                  <div className="mt-4 text-center mx-auto flex gap-8 justify-between w-[200px]">
+                  <div className="mt-4 text-center mx-auto flex gap-8 justify-between md:w-[232px] px-4">
                     {index > 0 && (
                         <Links
                           key={index}

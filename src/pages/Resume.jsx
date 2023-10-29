@@ -6,40 +6,39 @@ import Social from "../components/Social";
 import Projects from "../components/Projects";
 import Techologies from "../components/Techologies";
 
-
-
-
 function Resume() {
-
-  const Heading =()=> {
+  const Heading = () => {
     return (
-    <>
+      <>
         <p
           className={`${styles.subtitle} mb-1 mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl`}
         >
           Frontend Developer
         </p>
-        <p className={` mt-4 max-w-xs leading-normal`}>
-          I’ve worked on a handful of web projects over the years, some of which
-          were for the following organizations:
+        <p className={` mt-4 max-w-[30rem] leading-normal`}>
+          I'm a front-end developer, I have prioritized refining customer
+          satisfaction in approaches to a host of projects I have overseen which
+          has in turn endeared me to clients. Having devoted my time to science
+          and technology, I recognize the quest of man to use the web as a tool
+          for immense possibilities and I am keen to help actualize the vision.
         </p>
         <Social />
-        </>
-        )
-  } 
-  
+      </>
+    );
+  };
+
   return (
-    <Layout title="Abdulwahab Jimoh" 
-    // Header part of each pages
-    header={<Heading />}>
-
-
+    <Layout
+      title="Abdulwahab Jimoh"
+      // Header part of each pages
+      header={<Heading />}
+    >
       <div className="resume">
         {/* <a href='#' className={`${styles.link} mr-6`}>wabjay.dev</a>
         <a href='mailto:omoniyi.success@gmail.com' className={`${styles.link}`}>hello@wabjay.dev</a>
         </div><p className={`${styles.link}`}>Lagos, Nigeria</p> */}
         <div className="pt-24 lg:py-24">
-          <section
+          {/* <section
             id="about"
             className="mb-16 md:mb-24"
             aria-label="About me"
@@ -54,20 +53,18 @@ function Resume() {
               I’ve worked on a handful of web projects over the years, some of
               which were for the following organizations:
             </p>
-          </section>
+          </section> */}
           <div className={` mb-16 md:mb-24`}>
-           <div className={`${styles.experience}`}>
-            <Techologies />
-          <Companies />
-          <div className='mt-[2.5rem] sm:mt-0 md:col-start-2'>
-             <Projects showlink={true} />
-          </div>
-
-          </div>
+            <div className={`${styles.experience}`}>
+              <Techologies />
+              <Companies />
+              <div className="mt-[2.5rem] sm:mt-0 md:col-start-2">
+                <Projects showlink={true} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
     </Layout>
   );
 }

@@ -40,6 +40,11 @@ function Companies() {
   //       </div>
   //     </div>
       <div className={styles.details}>
+        <h2 className="text-sm font-bold uppercase tracking-widest mb-2">Brief</h2>
+        <p className={`${styles.text} mb-10 `}>
+              Worked on a handful of web projects over the years, some of
+              which were for the following organizations:
+            </p>
         <h2 className="text-sm font-bold uppercase tracking-widest">Experience</h2>
         {companies.map((company, index) => (
           <div className={styles.top_role} key={index}>
@@ -58,6 +63,11 @@ function Companies() {
               <span className={styles.date}> {company.date.start} - {company.date.end}</span>
             </div>
             <p className={`${styles.text}`}>{company.brief}</p>
+            {/* <div className="mt-4">
+            <p className={`${styles.text} mb-2`}>* {company.name}</p>
+            <p className={`${styles.text} mb-2`}>* {company.name}</p>
+            <p className={`${styles.text} mb-2`}>* {company.name}</p>
+            </div> */}
             <ul className={`${styles.techs}`}>
               {company.tasks.map((task, index) => (
                 <li key={index} className={`${styles.list} text-teal-300`}>

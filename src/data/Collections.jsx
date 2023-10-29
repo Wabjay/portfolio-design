@@ -38,6 +38,7 @@ import ComfyTag4 from "./comfytag/3.jpg"
 
 export const technologies = [
   "JavaScript",
+  "Axios",
   "React",
   "CSS-in-JS",
   "TypeScript",
@@ -64,9 +65,10 @@ export const projectList = [
     client: "Project",
     industry: "Events",
     title: "Comfytag",
-    link: "https://comfytag.vercel.app",
+    link: ["https://comfytag.vercel.app", "https://comfytag-dash.vercel.app"],
     text: `We are the leading online ticket platform for events and activities. We provide a convenient and secure way for you to purchase tickets to your favorite music festivals, sporting events, theatrical performances, and more.`,
-    tasks: ["VITE", "React", "Material UI"],
+    tasks: ["VITE", "React", "ExpressJs","MongoDB","Nodejs", "NextJs", "Redux Toolkit", "AntDesign", "ContextApi", ],
+    role: "Fullstack"
   },
   {
     path: "ayrem",
@@ -74,9 +76,10 @@ export const projectList = [
     client: "Ayrem LTD",
     industry: "Cryptocurrency, Fintech",
     title: "Ayrem App",
-    link: "https://ayrem.net/",
+    link: ["https://ayrem.net/"],
     text: `Ayrem is a fast and seamless digital platform that provides access to exchanging digital assets like bitcoin and gift cards. We are redefining Africa’s digital currency exchange space by making your digital transactions easier. We bring you secure and trusted means in your digital asset exchanges for cash.`,
-    tasks: ["HTML", "JavaScript", "CSS", "API"],
+    tasks: ["HTML", "JavaScript", "CSS", "API", "Axios"],
+    role: "Frontend"
   },
   {
     path: "ownerfi",
@@ -84,9 +87,10 @@ export const projectList = [
     client: "Ownerfi LTD",
     industry: "Proptech, Real Estate",
     title: "Ownerfi App",
-    link: "www.ownerfi.com",
+    link: ["www.ownerfi.com"],
     text: `Ownerfi is an innovative real estate company that provides homeowners and landlords a creative way to sell their property and at the same time earn trues passive income without the stress of Property management. Our creative owner financing solution is a groundbreaking product for millions of American landlords and homeowners.`,
     tasks: ["React", "Firebase", "Google places", "Emailjs-com", "Context api","Ant Design","ReactQuill"],
+    role: "Web Developer"
   },
   {
     path: "ethco",
@@ -94,9 +98,10 @@ export const projectList = [
     client: "Ethco Uk",
     industry: "Foodtech, E-commerce",
     title: "Ethco",
-    link: "https://www.getethco.com/",
+    link: ["https://www.getethco.com/"],
     text: `Ethco help Ethnic and Independent convenience store owners with low technical skills go online in the easiest way possible. We are leveraging artificial intelligence (AI) to make it extremely easy for our stores to automate processes and shorten the process of creating and publishing products.`,
-    tasks: ["HTML", "JavaScript", "CSS", "Airtable", "Formspree", "React", "Nextjs", "Redux", "Ant Design"]
+    tasks: ["HTML", "JavaScript", "CSS", "Airtable", "Formspree", "React", "Nextjs", "Redux", "Ant Design"],
+    role: "Frontend"
   },
   {
     path: "techtanks",
@@ -104,9 +109,10 @@ export const projectList = [
     client: "TechTanks LTD",
     industry: "Proptech, Real Estate",
     title: "TechTanks Landing page",
-    link: "https://techtanks.tech",
+    link: ["https://techtanks.tech"],
     text: `TechTanks is an IT solutions (Web, mobile app, custom software development, type approval, etc) company in Nigeria. We are a diverse group of digital strategists, technologists, critical thinkers, and thought leaders. We offer a comprehensive set of software development and technical services from requirements discovery to support and promote high quality and continuous improvement.`,
     tasks: ["React", "Emailjs-com","Bootstrap", "CSS"],
+    role: "Web Developer"
   },
   {
     path: "maxim",
@@ -114,9 +120,10 @@ export const projectList = [
     client: "MONSTERLABS TECHNOLOGIES LTD",
     industry: "Proptech, Real Estate",
     title: "Maxim Landing page",
-    link: "www.ayrem.net",
+    link: ["https://maxim-v2.netlify.app"],
     text: `Maxim Infrastructure connects and processes financial and non-financial data sources into usable data formats available for individual credit and background appraisals globally.`,
     tasks: ["TailwindCss", "JavaScript", "CSS", "Airtable"],
+    role: "Web Developer"
   },
   {
     path: "ecokpala",
@@ -124,9 +131,10 @@ export const projectList = [
     client: "Emmanuel Okpala",
     industry: "Consulting Agency",
     title: "Ecokpala Booking website",
-    link: "https://www.ecokpala.com/",
-    text: `Ayrem is a fast and seamless digital platform that provides access to exchanging digital assets like bitcoin and gift cards. We are redefining Africa’s digital currency exchange space by making your digital transactions easier. We bring you secure and trusted means in your digital asset exchanges for cash.`,
+    link: ["https://www.ecokpala.com/"],
+    text: `A decade of experience in consultancy, design, operations and management. My experience spans for-profit, non-profit, and governmental organisations. My background is in Architecture and Urban Design. I have managed projects, programs and business development roles for leading organisations in Nigeria.`,
     tasks: ["React", "Ant-Design", "Bootstrap", "Firebase", "Airtable"],
+    role: "Web Developer"
   },
 ];
 
@@ -134,18 +142,6 @@ export const projectList = [
 export const companies = [
   {
     role: "Frontend Developer",
-    name: "Ethco UK",
-    date: {
-      start: "August 2022",
-      end: "Present",
-    },
-    contract: "Part time",
-    brief: `Ethco is helping ethnic and independent stores go digital using low-touch technology, whilst assisting customers to order from their local store online.`,
-    tasks: ["React", "Nextjs", "Redux", "Ant Design"],
-    link: "https://www.getethco.com",
-  },
-  {
-    role: "Frontend Engineer",
     name: "Pixelgum",
     date: {
       start: "May 2021",
@@ -162,8 +158,36 @@ export const companies = [
     "Sass",
     "Next.js",
     "TailwindCss",
+    "Bootstrap"
   ],
     link: "#",
+  },
+  {
+    role: "Frontend Developer",
+    name: "Ethco UK",
+    date: {
+      start: "August 2022",
+      end: "April 2023",
+    },
+    contract: "Part time",
+    brief: `Ethco is helping ethnic and independent stores go digital using low-touch technology, whilst assisting customers to order from their local store online.`,
+    tasks: ["React", "Nextjs", "Redux", "Ant Design", "Airtable", "Formspree","JavaScript", "CSS" ],
+    link: "https://www.getethco.com",
+  },
+  {
+    role: "Frontend Developer",
+    name: "Ayrem",
+    date: {
+      start: "May 2020",
+      end: "February 2021",
+    },
+    contract: "Part time",
+    brief: `Ayrem is a fast and seamless digital platform that provides access to exchanging digital assets like bitcoin and gift cards. We are redefining Africa’s digital currency exchange space by making your digital transactions easier. We bring you secure and trusted means in your digital asset exchanges for cash.`,
+    tasks: ["HTML", "JavaScript", "CSS", "API", "Axios"],
+    link: "https://ayrem.net/",
+    duties: [
+
+    ]
   },
 ];
 
