@@ -33,6 +33,18 @@ import ComfyTag2 from "./comfytag/1.jpg"
 import ComfyTag3 from "./comfytag/01.jpg"
 import ComfyTag4 from "./comfytag/3.jpg"
 
+import Pitchdeck1 from "./pitchdeck/01.png"
+import Pitchdeck2 from "./pitchdeck/1.png"
+import Pitchdeck3 from "./pitchdeck/2.png"
+import Pitchdeck4 from "./pitchdeck/3.png"
+import Pitchdeck5 from "./pitchdeck/4.png"
+
+import Wordiebox1 from "./wordiebox/01.png"
+import Wordiebox2 from "./wordiebox/1.png"
+import Wordiebox3 from "./wordiebox/2.png"
+import Wordiebox4 from "./wordiebox/3.png"
+import Wordiebox5 from "./wordiebox/4.png"
+
 
 
 
@@ -59,6 +71,39 @@ export const skills = [
 ];
 
 export const projectList = [
+  {
+    path: "pitch",
+    img: [Pitchdeck1,Pitchdeck2,Pitchdeck3,Pitchdeck4,Pitchdeck5],
+    client: "Pixelgum Studio",
+    industry: "Business",
+    title: "Pitch Deck Design",
+    link: ["https://pitchdeck.design"],
+    text: `Browse a list of free pitch deck examples from founders, Purchase a Pitch deck template for your next raise, and Hire a pitch deck designer to make a deck for you. Close funding deals with Angel investors, Filter pitch deck by industry, Raise Amount and Stage`,
+    tasks: ["React", "Typescript", "Nodejs", "Tailwind CSS","Axios", "Zustand", "AntDesign", "Firebase", ],
+    role: "Frontend"
+  },
+  {
+    path: "wordiebox",
+    img: [Wordiebox1,Wordiebox2,Wordiebox3,Wordiebox4,Wordiebox5],
+    client: "Pixelgum Studio",
+    industry: "Gaming",
+    title: "Wordiebox",
+    link: ["https://wordiebox.com"],
+    text: `Wordiebox is a puzzle word game to guess new words from its meaning, Fill in words based on number representation from the number index before  the time runs down. Compete with your friends to earn points and move top of the leaderboard in no time.`,
+    tasks: ["NextJs", "Zustand", "Next-auth", "CSS","Axios", ],
+    role: "Frontend"
+  },
+  // {
+  //   path: "mailchekr",
+  //   img: [ComfyTag1,ComfyTag2,ComfyTag3,ComfyTag4],
+  //   client: "Project",
+  //   industry: "Events",
+  //   title: "Mailchekr",
+  //   link: ["https://comfytag.vercel.app", "https://comfytag-dash.vercel.app"],
+  //   text: `We are the leading online ticket platform for events and activities. We provide a convenient and secure way for you to purchase tickets to your favorite music festivals, sporting events, theatrical performances, and more.`,
+  //   tasks: ["VITE", "React", "ExpressJs","MongoDB","Nodejs", "NextJs", "Redux Toolkit", "AntDesign", "ContextApi", ],
+  //   role: "Fullstack"
+  // },
   {
     path: "comfytag",
     img: [ComfyTag1,ComfyTag2,ComfyTag3,ComfyTag4],
